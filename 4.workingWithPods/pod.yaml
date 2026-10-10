@@ -6,7 +6,7 @@ metadata:
     zone: prod
     version: v1
 spec:
-  containers:
+    containers:
     - name: hello-ctr
       image: nigelpoulton/k8sbook:1.0
       ports:
